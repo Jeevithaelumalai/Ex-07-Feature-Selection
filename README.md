@@ -19,48 +19,58 @@ Save the data to the file
 
 # CODE
 # importing library
+```
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
-
+```
 # data loading
+```
 data = pd.read_csv('/content/titanic_dataset.csv')
 data
 data.tail()
 data.isnull().sum()
 data.describe()
-
+```
 # now, we are checking start with a pairplot, and check for missing values
+```
 sns.heatmap(data.isnull(),cbar=False)
-
+```
 # Data Cleaning and Data Drop Process
+```
 data['Fare'] = data['Fare'].fillna(data['Fare'].dropna().median())
 data['Age'] = data['Age'].fillna(data['Age'].dropna().median())
-
+```
 # Change to categoric column to numeric
+```
 data.loc[data['Sex']=='male','Sex']=0
 data.loc[data['Sex']=='female','Sex']=1
-
+```
 # instead of nan values
+```
 data['Embarked']=data['Embarked'].fillna('S')
-
+```
 # Change to categoric column to numeric
+```
 data.loc[data['Embarked']=='S','Embarked']=0
 data.loc[data['Embarked']=='C','Embarked']=1
 data.loc[data['Embarked']=='Q','Embarked']=2
-
+```
 # Drop unnecessary columns
+```
 drop_elements = ['Name','Cabin','Ticket']
 data = data.drop(drop_elements, axis=1)
 
 data.head(11)
-
+```
 # heatmap for train dataset
+```
 f,ax = plt.subplots(figsize=(5, 5))
 sns.heatmap(data.corr(), annot=True, linewidths=.5, fmt= '.1f',ax=ax)
-
+```
+```
 # Now, data is clean and read to a analyze
 sns.heatmap(data.isnull(),cbar=False)
 
@@ -113,4 +123,5 @@ print("Random forest score: ",accuracy_score(y_test,target_predict))
 from sklearn.metrics import mean_squared_error, r2_score
 print ("MSE    :",mean_squared_error(y_test,target_predict))
 print ("R2     :",r2_score(y_test,target_predict))
+```
 # OUTPUT
