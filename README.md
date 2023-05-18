@@ -126,7 +126,19 @@ print ("R2     :",r2_score(y_test,target_predict))
 # OUTPUT():
 # Dataset:
 ![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/a309a9b1-bce1-4e7d-88b9-a9a929c2c778)
-# Null tail():
+# data.tail():
+![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/4e824843-7f83-4f48-8dc4-20df9d620fb4)
+# data.insull().sum():
+![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/302d8fc6-8a6f-4d62-8340-5ab171a9a797)
+# data.describe():
+![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/1cf6f1b9-4383-4ad4-8cb5-22b943183425)
+# heatmap:
+![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/3ad0a2a8-4f38-47f7-9270-0badae96b6fc)
+# Data after cleaning:
+![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/7eb410dd-9904-4937-91ca-7524801963d5)
+# Data on Heatmap:
+![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/3e00af8a-4c93-4919-a2de-1ca8ff81bbfe)
 
-
+# Cleaned Null values:
+![Uploading image.png…]()
 
