@@ -123,4 +123,10 @@ from sklearn.metrics import mean_squared_error, r2_score
 print ("MSE    :",mean_squared_error(y_test,target_predict))
 print ("R2     :",r2_score(y_test,target_predict))
 ```
-# OUTPUT
+# OUTPUT():
+# Dataset:
+![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/a309a9b1-bce1-4e7d-88b9-a9a929c2c778)
+# Null tail():
+
+
+
