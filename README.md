@@ -143,6 +143,17 @@ print ("R2     :",r2_score(y_test,target_predict))
 ![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/6d2047aa-7546-466a-8f8a-dd7e595bdcf8)
 # Report of (people survived & Died):
 ![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/85abee4c-6f76-4c0c-bf68-329e07ca5b31)
-# Report of Survived People's Age:
-![Uploading image.png…]()
 
+# Report of Survived People's Age:
+
+![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/73d2acb4-384f-4a16-b440-04dcc41065e8)
+
+
+# Report of pessengers:
+![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/0cb0e292-4b35-49c9-b8f6-4456fa56a4b9)
+
+# Report:
+![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/626fd32b-4da7-466a-8f48-7dcab2db840c)
+
+# Result:
+Thus, Sucessfully performed the various feature selection techniques on a given dataset
