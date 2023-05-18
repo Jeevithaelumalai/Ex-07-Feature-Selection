@@ -145,8 +145,7 @@ print ("R2     :",r2_score(y_test,target_predict))
 ![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/85abee4c-6f76-4c0c-bf68-329e07ca5b31)
 
 # Report of Survived People's Age:
-
-![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/73d2acb4-384f-4a16-b440-04dcc41065e8)
+![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/79454901-8c04-4cf9-9b4e-bc14055f46df)
 
 
 # Report of pessengers:
