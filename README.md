@@ -140,5 +140,9 @@ print ("R2     :",r2_score(y_test,target_predict))
 ![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/3e00af8a-4c93-4919-a2de-1ca8ff81bbfe)
 
 # Cleaned Null values:
+![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/6d2047aa-7546-466a-8f8a-dd7e595bdcf8)
+# Report of (people survived & Died):
+![image](https://github.com/Jeevithaelumalai/Ex-07-Feature-Selection/assets/118708245/85abee4c-6f76-4c0c-bf68-329e07ca5b31)
+# Report of Survived People's Age:
 ![Uploading image.png…]()
 
